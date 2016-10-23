@@ -1,0 +1,10 @@
+/* EStilização para o app */
+.header_app{
+  height:60px
+}
+.header_app h1{
+  text-align:center;
+}
+#conteiner-principal{
+  margin-top:60px;
+}
