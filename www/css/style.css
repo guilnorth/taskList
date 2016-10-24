@@ -5,6 +5,7 @@
 .header_app h1{
   text-align:center;
 }
-#conteiner-principal{
+#content_list{
   margin-top:60px;
+  margin-bottom: 50px;
 }

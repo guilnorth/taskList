@@ -100,9 +100,13 @@ app.controller('MainCtrl', function($scope,$ionicPopup,$ionicListDelegate){
   }
 
   //Edit
-
   $scope.onEditItem = function(item){
     insertItem(item,false);
+  }
+
+  $scope.onShowMarked = function(){
+    $scope.showMarked = !$scope.showMarked;
+    console.log($scope.showMarked);
   }
 
 
